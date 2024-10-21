@@ -1,0 +1,25 @@
+[project]
+name = "myproject"
+version = "0.1.0"
+description = "This is a starting project for the future onces and the purpose is to understand the CI/CD"
+authors = [
+    {name = "Baglan", email = "www.baglan888@gmail.com"},
+]
+dependencies = [
+    "ruff>=0.7.0",
+]
+requires-python = ">=3.12"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[tool.pdm]
+distribution = true
+
+[tool.ruff]
+show-fixes = true
+line-length = 120
