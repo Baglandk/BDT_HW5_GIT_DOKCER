@@ -25,6 +25,6 @@ jobs:
       - name: Build and push Docker image
         uses: docker/build-push-action@v2
         with:
-          context: .
+          context: ./src/myproject
           push: true
           tags: dandony/bdt_05_hw:latest
