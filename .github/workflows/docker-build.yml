@@ -3,7 +3,7 @@ name: Build and Push Docker Image
 on:
   push:
     branches:
-      - main  # Укажите ветку, для которой хотите запускать действия
+      - section05
 
 jobs:
   build:
