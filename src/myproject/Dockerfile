@@ -4,4 +4,4 @@ WORKDIR /app
 
 COPY the_project.py .
 
-CMD ["python", "the_project.py"]
+ENTRYPOINT ["python", "the_project.py"]
