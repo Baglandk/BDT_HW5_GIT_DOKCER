@@ -23,7 +23,7 @@ def generate_primes(count, seed):
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Генерация простых чисел.")
+    parser = argparse.ArgumentParser(description="Генерация простых чисел")
     parser.add_argument("count", type=int, help="Количество простых чисел для генерации")
     parser.add_argument("seed", type=int, help="Seed для генератора случайных чисел")
 
